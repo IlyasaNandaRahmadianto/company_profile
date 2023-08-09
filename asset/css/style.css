@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 .carousel-img {
   max-height: 100vh;
 }
@@ -70,6 +74,30 @@
 
 .btn-subscribe {
   background: #07bf07;
+}
+
+.btn-to-top {
+  background: whitesmoke;
+}
+
+.btn-to-top {
+  display: inline;
+  position: fixed;
+  right: 15px;
+  bottom: 15px;
+}
+
+.bg-darker {
+  background: #111;
+}
+
+.portofolio-filter li {
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.portofolio-filter .filter-active {
+  background:#07bf07;
 }
 
 @media (max-width:768px) {

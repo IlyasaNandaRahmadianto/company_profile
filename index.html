@@ -9,6 +9,8 @@
   <link rel="stylesheet" href="/asset/vendor/bootstrap/dist/css/bootstrap.min.css">
   <!--fontawesome-->
   <link rel="stylesheet" href="/asset/vendor/fontawesome/css/all.min.css">
+  <!--aos-->
+  <link rel="stylesheet" href="/asset/vendor/aos/dist/aos.css">
   <!--custom css-->
   <link rel="stylesheet" href="/asset/css/style.css">
 </head>
@@ -103,12 +105,12 @@
         <h2 class="text-center fw-bold">ABOUT US</h2>
       </div>
       <div class="row mt-5">
-        <div class="col-md-6">
+        <div class="col-md-6" data-aos="fade-right">
           <h3 class="fw-bold about-us-title">Lorem ipsum dolor sit amet consectetur.</h3>
           <p class="fw-bolder mt-4 about-us-subtitle">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio
             nesciunt, quas quam repellendus doloribus.</p>
         </div>
-        <div class="col-md-6">
+        <div class="col-md-6" data-aos="fade-left">
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam cum, natus odit soluta dolore odio sequi
             nemo eaque itaque consequatur, eum accusantium ad enim! Tempore culpa sunt deleniti a architecto.</p>
           <ul class="list-group list-group-flush">
@@ -146,8 +148,8 @@
       </div>
       <p class="text-center mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
       <div class="row mt-5">
-        <div class="col-md-4 mt-4">
-          <div class="card border-0 text-center p-4">
+        <div class="col-md-4">
+          <div class="card border-0 text-center p-4 mt-3" data-aos="zoom-in">
             <div class="card-body">
               <div class="card-icon">
                 <i class="fa fa-book fa-3x"></i>
@@ -158,8 +160,8 @@
             </div>
           </div>
         </div>
-        <div class="col-md-4 mt-4">
-          <div class="card border-0 text-center p-4">
+        <div class="col-md-4">
+          <div class="card border-0 text-center p-4 mt-3" data-aos="zoom-in">
             <div class="card-body">
               <div class="card-icon">
                 <i class="fa fa-book fa-3x"></i>
@@ -170,8 +172,8 @@
             </div>
           </div>
         </div>
-        <div class="col-md-4 mt-4">
-          <div class="card border-0 text-center p-4">
+        <div class="col-md-4">
+          <div class="card border-0 text-center p-4 mt-3" data-aos="zoom-in">
             <div class="card-body">
               <div class="card-icon">
                 <i class="fa fa-book fa-3x"></i>
@@ -182,8 +184,8 @@
             </div>
           </div>
         </div>
-        <div class="col-md-4 mt-4">
-          <div class="card border-0 text-center p-4">
+        <div class="col-md-4">
+          <div class="card border-0 text-center p-4 mt-3" data-aos="zoom-in">
             <div class="card-body">
               <div class="card-icon">
                 <i class="fa fa-book fa-3x"></i>
@@ -194,8 +196,8 @@
             </div>
           </div>
         </div>
-        <div class="col-md-4 mt-4">
-          <div class="card border-0 text-center p-4">
+        <div class="col-md-4">
+          <div class="card border-0 text-center p-4 mt-3" data-aos="zoom-in">
             <div class="card-body">
               <div class="card-icon">
                 <i class="fa fa-book fa-3x"></i>
@@ -206,8 +208,8 @@
             </div>
           </div>
         </div>
-        <div class="col-md-4 mt-4">
-          <div class="card border-0 text-center p-4">
+        <div class="col-md-4">
+          <div class="card border-0 text-center p-4 mt-3" data-aos="zoom-in">
             <div class="card-body">
               <div class="card-icon">
                 <i class="fa fa-book fa-3x"></i>
@@ -229,26 +231,36 @@
       <div class="title-container">
         <h2 class="text-center fw-bold">PORTOFOLIO</h2>
       </div>
+      <div class="row mt-4">
+        <div class="col-md-12 d-flex justify-content-center">
+          <ul class="list-unstyled d-flex portofolio-filter">
+            <li data-filter="*" class="py-2 px-4 filter-active text-white">ALL</li>
+            <li data-filter=".filter-web" class="py-2 px-4">Web</li>
+            <li data-filter=".filter-design" class="py-2 px-4">Design</li>
+            <li data-filter=".filter-foto" class="py-2 px-4">Photography</li>
+          </ul>
+        </div>
+      </div>
       <div class="row mt-5">
         <div class="col-md-12">
-          <div class="mansory">
+          <div class="mansory portofolio-container" data-aos="zoom-in-up">
             <div class="mansory-sizer"></div>
-            <div class="mansory-item m-2">
+            <div class="mansory-item m-2 portofolio-item filter-foto">
               <img src="/asset/img/p1.jpg" alt="" class="img-fluid">
             </div>
-            <div class="mansory-item m-2">
+            <div class="mansory-item m-2 portofolio-item filter-design">
               <img src="/asset/img/p2.jpg" alt="" class="img-fluid">
             </div>
-            <div class="mansory-item m-2">
+            <div class="mansory-item m-2 portofolio-item filter-web">
               <img src="/asset/img/p3.jpg" alt="" class="img-fluid">
             </div>
-            <div class="mansory-item m-2">
+            <div class="mansory-item m-2 portofolio-item filter-web">
               <img src="/asset/img/p4.jpg" alt="" class="img-fluid">
             </div>
-            <div class="mansory-item m-2">
+            <div class="mansory-item m-2 portofolio-item filter-design">
               <img src="/asset/img/p5.jpg" alt="" class="img-fluid">
             </div>
-            <div class="mansory-item m-2">
+            <div class="mansory-item m-2 portofolio-item filter-foto">
               <img src="/asset/img/p6.jpg" alt="" class="img-fluid">
             </div>
           </div>
@@ -265,19 +277,19 @@
         <h2 class="text-center fw-bold">CLIENTS</h2>
       </div>
       <div class="row mt-5 justify-content-center">
-        <div class="col-md-3 pt-5">
+        <div class="col-md-3 pt-5" data-aos="zoom-in">
           <img src="/asset/img/google.svg" class="img-fluid brand-image" alt="">
         </div>
-        <div class="col-md-3 pt-5">
+        <div class="col-md-3 pt-5" data-aos="zoom-in">
           <img src="/asset/img/ibm.svg" class="img-fluid brand-image" alt="">
         </div>
-        <div class="col-md-3 pt-5">
+        <div class="col-md-3 pt-5" data-aos="zoom-in">
           <img src="/asset/img/facebook.svg" class="img-fluid brand-image" alt="">
         </div>
-        <div class="col-md-3 pt-5">
+        <div class="col-md-3 pt-5" data-aos="zoom-in">
           <img src="/asset/img/linkedin.svg" class="img-fluid brand-image" alt="">
         </div>
-        <div class="col-md-3 pt-5">
+        <div class="col-md-3 pt-5" data-aos="zoom-in">
           <img src="/asset/img/tesla.svg" class="img-fluid brand-image" alt="">
         </div>
       </div>
@@ -287,12 +299,12 @@
 
   <!--footer-->
   <footer class="mt-5">
-    <div class="footer-top bg-dark text-light p-5">
+    <div class="footer-top bg-dark text-white p-5">
       <div class="container-fluid">
         <div class="row">
           <div class="col-md-1"></div>
           <div class="col-md-3">
-            <h2 class="fw-bold">COMPANY</h2>
+            <h4 class="fw-bold">COMPANY</h4>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus dolorem
               dignissimos quae voluptatibus illum delectus deserunt facere.</p>
             <strong>Phone</strong> : <span>+6281234567892</span>
@@ -300,7 +312,7 @@
             <strong>Email</strong> : <span>companysurabaya@company.org</span>
           </div>
           <div class="col-md-2">
-            <h2 class="fw-bold">Our Services</h2>
+            <h4 class="fw-bold">Our Services</h4>
             <ul class="list-group list-unstyled">
               <li class="list-item">
                 <a href="" class="text-decoration-none text-white">
@@ -335,7 +347,7 @@
             </ul>
           </div>
           <div class="col-md-2">
-            <h2 class="fw-bold">Useful Links</h2>
+            <h4 class="fw-bold">Useful Links</h4>
             <ul class="list-group list-unstyled">
               <li class="list-item">
                 <a href="" class="text-decoration-none text-white">
@@ -370,7 +382,7 @@
             </ul>
           </div>
           <div class="col-md-3">
-            <h2 class="fw-bold">Join Our Newsletter</h2>
+            <h4 class="fw-bold">Join Our Newsletter</h4>
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
             <div class="input-group">
               <input type="text" class="form-control" placeholder="yourmail@example.com">
@@ -381,19 +393,62 @@
         </div>
       </div>
     </div>
-    <div class="footer-down"></div>
+    <div class="footer-down bg-darker text-white px-5 py-3">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-1"></div>
+          <div class="col-md-5">
+            <div class="copyright">
+              &copy; Copyright <strong>Company</strong>. All Rights Reserved
+            </div>
+            <div class="credits">
+              Design by me
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="social-links float-end">
+              <a href="" class="mx-2 text-decoration-none">
+                <i class="fab fa-facebook fa-2x"></i>
+              </a>
+              <a href="" class="mx-2 text-decoration-none">
+                <i class="fab fa-twitter fa-2x"></i>
+              </a>
+              <a href="" class="mx-2 text-decoration-none">
+                <i class="fab fa-instagram fa-2x"></i>
+              </a>
+              <a href="" class="mx-2 text-decoration-none">
+                <i class="fab fa-youtube fa-2x"></i>
+              </a>
+              <a href="" class="mx-2 text-decoration-none">
+                <i class="fab fa-tiktok fa-2x"></i>
+              </a>
+              <a href="" class="mx-2 text-decoration-none">
+                <i class="fab fa-linkedin fa-2x"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
   </footer>
   <!--end footer-->
 
-  <div class="vh-50"></div>
+  <!-- <div class="vh-50"></div> -->
+
+  <!--to top-->
+  <a href="#" class="btn-to-top p-2 rounded shadow">
+    <i class="fa fa-chevron-up"></i>
+  </a>
+  <!--end to top-->
 
   <script src="asset/vendor/jquery/jquery-3.7.0.min.js"></script>
   <script src="/asset/vendor/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
   <script src="/asset/vendor/fontawesome/js/all.min.js"></script>
   <script src="/asset/vendor/masonry/masonry.pkgd.min.js"></script>
+  <script src="/asset/vendor/aos/dist/aos.js"></script>
+  <script src="/asset/vendor/isotope/isotope.pkgd.min.js"></script>
   <script src="/asset/js/app.js"></script>
 </body>
-
-<!--46:36-->
 
 </html>
